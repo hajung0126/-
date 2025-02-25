@@ -23,7 +23,7 @@
 }
 
 body {
-    min-width: 1920px;
+    min-width: 1440px; /* 필수 */
 }
 
 * {

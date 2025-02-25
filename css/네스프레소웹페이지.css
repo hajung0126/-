@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 700;
@@ -21,6 +22,9 @@
 	src: local('Pretendard Light'), url(./woff2/Pretendard-Light.woff2) format('woff2'), url(./woff/Pretendard-Light.woff) format('woff');
 }
 
+body {
+    min-width: 1920px;
+}
 
 * {
     margin: 0;
@@ -133,7 +137,7 @@ body {
     background-color: transparent;
     text-decoration: none;
     box-sizing: border-box;
-    transition: all 0.5s ease-in-out;
+    transition: all 1s ease-in-out;
     /* 부드러운 애니메이션 */
     position: relative;
     overflow: hidden;
@@ -293,7 +297,7 @@ body {
     background-color: transparent;
     text-decoration: none;
     box-sizing: border-box;
-    transition: all 0.1s ease-in-out;
+    transition: all 1s ease-in-out;
 
     /* 부드러운 애니메이션 */
     position: relative;
